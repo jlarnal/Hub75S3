@@ -1,0 +1,12 @@
+{
+    "name": "Hub75S3",
+    "version": "0.1.0",
+    "description": "Template-driven HUB75 driver for ESP32-S3 via LCD_CAM peripheral",
+    "frameworks": ["arduino", "espidf"],
+    "platforms": ["espressif32"],
+    "build": {
+        "flags": ["-std=gnu++20"],
+        "srcFilter": ["+<*>"],
+        "includeDir": "include"
+    }
+}
